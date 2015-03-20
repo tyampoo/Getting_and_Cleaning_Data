@@ -55,7 +55,7 @@ Given is the the data in various files, the data set contains:
 	+ Merge with activity level to get descriptive activity name
 	+ With the merged data
 	  + Group by acitivity (ID, Name) and Subject
-    + Calculate mean (average) for each variable 
-    + The variables are in column header so, list them as rows
+      + Calculate mean (average) for each variable 
+      + The variables are in column header so, list them as rows
 
 8. At this point we have we the desired data set; rite the final data set into a file
