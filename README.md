@@ -26,7 +26,7 @@ Given is the the data in various files, the data set contains:
 7. Use tidy principles/operations to create final result
 8. Export the final result into a text file
 
-#### Detail Steps
+#### Detailed Steps
 1. Read and process features file
 	+ Read features file
 	+ Since this will be used as a column header later, remove invalid characters
