@@ -1,9 +1,9 @@
 # Getting and Cleaning Data Course Project
 
 #### Background
-Given is the the data in various files, the data set contains:
-1. Features: 	List of variable for which data was collected
-2. Activities: 	List of acitivities performed by volunteers
+Given is the the data in various files, the data set contains
+1. Features- List of variable for which data was collected
+2. Activities-	List of acitivities performed by volunteers
 3. Test Data
 	+ Test Data Set
 	+ Test Data Labels
