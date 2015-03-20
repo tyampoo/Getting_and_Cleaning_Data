@@ -1,16 +1,20 @@
 # Getting and Cleaning Data Course Project
 
 #### Background
-Given is the the data in various files, the data set contains
+Given is the the data in various files, the data set contains:
 
-1. Features- List of variable for which data was collected
-2. Activities-	List of acitivities performed by volunteers
+1. Features: List of variable for which data was collected
+2. Activities:	List of acitivities performed by volunteers
 3. Test Data
 	+ Test Data Set
 	+ Test Data Labels
+  + Test Subjects
+  + Test Activities
 4. Train Data 
 	+ Train Data Set
-	+ Train Data Labels  
+	+ Train Data Labels
+  + Train Subjects
+  + Train Activities
 
 #### The thought process
 1. Read all data files into R data frames
