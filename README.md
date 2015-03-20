@@ -27,36 +27,35 @@ Given is the the data in various files, the data set contains:
 8. Export the final result into a text file
 
 #### Detail Steps
-* Read and process features file
+1. Read and process features file
 	+ Read features file
 	+ Since this will be used as a column header later, remove invalid characters
 	+ Give readable header names
 
-* Read and process Activity levels
+2. Read and process Activity levels
 	+ Read activity levels file
 	+ Give readable header names 
 
-* Read and process test data sets
+3. Read and process test data sets
 	+ Read test subjects and give readable header name
 	+ Read test activities and give readable header name
 	+ Read test data set and give readable header name
 	+ Join all test related values into one big dataframe
 
-* Read and process train data sets
+4. Read and process train data sets
 	+ Read train subjects and give readable header name
 	+ Read train activities and give readable header name
 	+ Read train data set and give readable header name
 	+ Join all train related values into one big dataframe
 
-* Combing both test and train data sets
-* Load libraries, dplyr and tidyr, for data manipulation and to use tidy functions
-
-* Process combined data to get desired data set 
+5. Combing both test and train data sets
+6. Load libraries, dplyr and tidyr, for data manipulation and to use tidy functions
+7. Process combined data to get desired data set 
 	+ Get subset of data for mean and std along with Activity_ID and Subject
 	+ Merge with activity level to get descriptive activity name
 	+ With the merged data
-	++ Group by acitivity (ID, Name) and Subject
+	  ++ Group by acitivity (ID, Name) and Subject
   	++ Calculate mean (average) for each variable 
   	++ The variables are in column header so, list them as rows
 
-* At this point we have we the desired data set; rite the final data set into a file
+8. At this point we have we the desired data set; rite the final data set into a file
