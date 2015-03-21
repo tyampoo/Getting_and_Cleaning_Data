@@ -27,7 +27,7 @@ Given is the the data in various files, the data set contains:
 8. Export the final result into a text file
 
 #### Assumption
-For the analysis, the files are in the folder __UCI HAR Dataset__ folder in the working directory and the _run_Analysis.R_ is sourced from the workind directory.
+For the analysis, the files are in the folder __UCI HAR Dataset__ folder in the working directory and the _run_Analysis.R_ is sourced from the working directory.
 
 #### Detailed Steps
 1. Read and process features file
